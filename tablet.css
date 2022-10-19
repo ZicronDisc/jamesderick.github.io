@@ -1,0 +1,55 @@
+@media only screen and (max-width: 980px) {
+
+    #JDLogo {
+        width: 10%;
+        height: 10%;
+        margin-left: 5%;
+    }
+
+    #gradPic {
+        width: 40%;
+        border-radius: 100%;
+        margin: 0px 30%;
+    }
+
+    #about {
+        margin-top: 5%;
+        margin-right: 0%;
+        text-align: center;
+    }
+
+    #aboutPara {
+        text-align: center;
+        margin: 0% 10% 0% 10%;
+    }
+
+    .sections {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 0% 10%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    #hello {
+        font-weight: bold;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    #introPara {
+        font-size: 1rem;
+        line-height: 1.3rem;
+        text-align: center;
+    }
+
+    #about {
+        font-size: 1.7rem;
+    }
+
+    #aboutPara {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+}

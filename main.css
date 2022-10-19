@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Quicksand:wght@300;400;500;600&display=swap');
+
+
+body {
+    font-family: 'Quicksand', 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Assets*/
+
+/*HOME*/
+#JDLogo {
+    width: 5%;
+    height: 5%;
+    margin-left: 5%;
+    display: inline;
+}
+
+#home {
+    background-image: linear-gradient(to right, #000000, #00000061), url('/images/BGImage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menuBar {
+    padding: 5% 0%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+li {
+    display: inline-block;
+}
+
+.menuItems {
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out 0.4s;
+    font-weight: bold;
+
+    margin: 0px 50px;
+    font-size: 1.2rem;
+}
+
+.menuItems:hover {
+    color: #F7DF1E;
+}
+
+#intro {
+    padding: 5% 5% 10%;
+    color: white;
+}
+
+#hello {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+#introPara {
+    font-size: 2rem;
+    line-height: 2.3rem;
+}
+
+/*ABOUT ME*/
+#aboutMe,
+#aboutMe2 {
+    padding: 12% 5%;
+}
+
+#aboutMe {
+    background-color: #EFEFEF;
+}
+
+#gradPic {
+    width: 60%;
+    border-radius: 100%;
+    margin: 0px 20%;
+}
+
+#about {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: right;
+    margin-right: 25%;
+}
+
+#aboutPara {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    text-align: right;
+    margin-right: 25%;
+}
+
+/*ABOUT ME 2*/
+#aboutMe2,
+#skills {
+    background-color: #0C1826;
+}
+
+#aboutMe2 {
+    color: white;
+    text-align: center;
+}
+
+.sectionHeader {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sections {
+    padding: 0% 5%;
+}
+
+#motto {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #EFEFEF;
+    color: #000000;
+    text-align: center;
+    padding: 5%;
+}
+
+.socialLinks {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.socialIcon {
+    margin: 0px 20px;
+    color: black;
+    transition: ease-in-out 0.4s;
+}
+
+.socialIcon:hover {
+    color: #d1b900;
+}
+
+.credit {
+    font-size: 0.9rem;
+}
